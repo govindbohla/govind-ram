@@ -60,6 +60,7 @@ const skillCategories = [
       "CSV Import/Export",
       "Laravel Queue",
       "Notifications",
+      "AI Integration",
     ],
   },
 ];
@@ -81,9 +82,10 @@ export default function Skills() {
             My <span className="text-blue-500">Skills</span>
           </h2>
 
-          <p className="text-center text-gray-400 mt-5 max-w-3xl mx-auto">
-            Technologies, frameworks and tools I use to build scalable,
-            secure and high-performance web applications.
+          <p className="mt-5 text-gray-400 max-w-3xl mx-auto">
+            Experienced in Laravel, PHP, MySQL and modern backend technologies, with
+            continuous learning in AI Integration, Node.js and intelligent application
+            development.
           </p>
         </motion.div>
 

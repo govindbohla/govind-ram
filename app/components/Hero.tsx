@@ -32,10 +32,14 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 text-gray-300 leading-8 text-lg">
-            Laravel Backend Developer with <strong>3+ years</strong> of
-            experience building scalable web applications, REST APIs,
-            CRM systems, Educational Platforms and E-Commerce solutions
-            using Laravel, PHP and MySQL.
+            Results-driven <strong>Laravel Backend Developer</strong> with{" "}
+            <strong>3.5+ years</strong> of experience in developing scalable web
+            applications, CRM systems, Educational Platforms and E-Commerce solutions.
+            Proficient in <strong>PHP, Laravel, MySQL, JavaScript</strong> and
+            third-party integrations, with hands-on experience in queues, background
+            jobs, payment gateway integration and RESTful API development. Currently
+            learning <strong>AI Integration</strong> and <strong>Node.js</strong> to
+            build next-generation backend solutions.
           </p>
 
           {/* Buttons */}
@@ -87,12 +91,12 @@ export default function Hero() {
           {/* Stats */}
           <div className="mt-12 grid grid-cols-3 gap-4">
             <div className="rounded-xl border border-white/10 bg-white/5 p-5 text-center">
-              <h3 className="text-3xl font-bold text-blue-500">3+</h3>
+              <h3 className="text-3xl font-bold text-blue-500">3.5+</h3>
               <p className="mt-2 text-sm text-gray-400">Years</p>
             </div>
 
             <div className="rounded-xl border border-white/10 bg-white/5 p-5 text-center">
-              <h3 className="text-3xl font-bold text-blue-500">7+</h3>
+              <h3 className="text-3xl font-bold text-blue-500">10+</h3>
               <p className="mt-2 text-sm text-gray-400">Projects</p>
             </div>
 

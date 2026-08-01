@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
 import AvailabilityModal from "./components/AvailabilityModal";
+import FloatingWhatsapp from "./components/FloatingWhatsapp";
 
 export default function Home() {
   return (
@@ -22,8 +23,8 @@ export default function Home() {
       <Projects />
       {/* <Achievements /> */}
       <Contact />
+      <FloatingWhatsapp />
       <Footer />
-      <BackToTop />
 
     </>
   );

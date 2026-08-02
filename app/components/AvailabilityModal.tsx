@@ -21,7 +21,7 @@ export default function AvailabilityModal() {
 
   useEffect(() => {
     const SHOW_AFTER = 1000;
-    const EXPIRE_TIME = 0; // 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+    const EXPIRE_TIME = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
     const lastShown = localStorage.getItem("availability-popup");
 

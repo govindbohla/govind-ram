@@ -21,20 +21,35 @@ export default function Contact() {
     >
       <div className="max-w-7xl mx-auto px-6">
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="text-center text-5xl font-bold">
-            Let's <span className="text-blue-500">Connect</span>
-          </h2>
+       <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: .6 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
 
-          <p className="mt-5 text-center text-gray-400 max-w-3xl mx-auto">
-            I'm currently open to Laravel Backend Developer opportunities,
-            freelance work and exciting software projects.
-          </p>
-        </motion.div>
+            <span className="inline-flex items-center rounded-full border border-green-500/30 bg-green-500/10 px-5 py-2 text-sm font-medium text-green-400">
+              🟢 Available for Immediate Joining
+            </span>
+
+            <h2 className="mt-6 text-4xl md:text-5xl font-bold">
+              Let's <span className="text-blue-500">Work Together</span>
+            </h2>
+
+            <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-400">
+              Looking for a passionate
+              <span className="font-semibold text-white">
+                {" "}Laravel Backend Developer
+              </span>
+              ? I'm available for
+              <span className="text-blue-400 font-semibold">
+                {" "}Full-time, Remote, Freelance
+              </span>
+               and exciting software development opportunities.
+            </p>
+
+          </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-10 mt-16">
 
@@ -44,7 +59,7 @@ export default function Contact() {
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="rounded-3xl bg-white/5 border border-white/10 backdrop-blur-lg p-8"
+            className="rounded-3xl border border-slate-700 bg-[#0B1220] p-8 backdrop-blur-xl transition-all duration-500 hover:border-blue-500 hover:shadow-[0_20px_60px_rgba(37,99,235,.20)]"
           >
 
             <h3 className="text-3xl font-bold">
@@ -115,7 +130,7 @@ export default function Contact() {
                 href="https://linkedin.com/in/govind-ram-88602867"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl bg-blue-600 px-5 py-3 flex items-center gap-2 hover:bg-blue-700 transition"
+                className="flex items-center gap-2 rounded-xl bg-[#0077B5] px-5 py-3 font-medium transition hover:scale-105"
               >
                 <FaLinkedin size={20} />
                 LinkedIn
@@ -125,7 +140,7 @@ export default function Contact() {
                 href="https://github.com/govindbohla"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl bg-gray-700 px-5 py-3 flex items-center gap-2 hover:bg-gray-800 transition"
+                className="flex items-center gap-2 rounded-xl bg-[#24292F] px-5 py-3 font-medium transition hover:scale-105"
               >
                 <FaGithub size={20} />
                 GitHub
@@ -134,7 +149,7 @@ export default function Contact() {
               <a
                 href="/resume.pdf"
                 download
-                className="rounded-xl bg-green-600 px-5 py-3 flex items-center gap-2 hover:bg-green-700 transition"
+                className="flex items-center gap-2 rounded-xl bg-green-600 px-5 py-3 font-medium transition hover:scale-105 hover:bg-green-700"
               >
                 <Download size={20} />
                 Resume
@@ -150,44 +165,46 @@ export default function Contact() {
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="rounded-3xl bg-gradient-to-br from-blue-600 to-indigo-700 p-10 flex flex-col justify-center"
+            className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 p-10 flex flex-col justify-center shadow-xl transition-all duration-500 hover:-translate-y-3 hover:scale-[1.02] hover:shadow-[0_30px_80px_rgba(59,130,246,.45)]"
           >
 
             <h3 className="text-4xl font-bold">
               Looking for a Laravel Developer?
             </h3>
 
-            <p className="mt-6 text-lg leading-8">
+            <p className="mt-6 text-lg leading-8 text-white/90">
+              I specialize in building scalable, secure and high-performance web applications using Laravel and modern backend technologies.
 
-              I have professional experience developing
+              ✔ Laravel Web Applications
 
-              • Laravel Applications
+              ✔ RESTful APIs
 
-              • REST APIs
+              ✔ CRM & ERP Solutions
 
-              • CRM Systems
+              ✔ SaaS Platforms
 
-              • E-Commerce Platforms
+              ✔ Educational Portals
 
-              • Educational Platforms
+              ✔ E-Commerce Systems
 
-              • Payment Gateway Integration
+              ✔ Payment Gateway Integration
 
-              • Third Party APIs
+              ✔ Third-Party API Integration
 
-              • Queue Jobs
+              ✔ Authentication & Authorization
 
-              • Database Design
+              ✔ Queue Jobs & Background Processing
 
-              • Performance Optimization
+              ✔ Database Design & Optimization
 
+              ✔ Performance Optimization
             </p>
 
             <a
               href="mailto:grgovind1992@gmail.com"
-              className="mt-10 inline-block w-fit rounded-full bg-white px-8 py-4 text-black font-semibold hover:bg-gray-200 transition"
+              className="mt-10 inline-flex w-fit items-center gap-2 rounded-full bg-white px-8 py-4 font-semibold text-black transition-all duration-300 hover:scale-110 hover:bg-yellow-300 hover:shadow-2xl"
             >
-              Hire Me
+              🚀 Hire Me
             </a>
 
           </motion.div>

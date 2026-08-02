@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 
 const stats = [
   {
-    number: "3.5+",
+    number: "3.7+",
     title: "Years Experience",
   },
   {
     number: "10+",
-    title: "Projects",
+    title: "Projects Delivered",
   },
   {
     number: "12+",
     title: "Technologies",
   },
   {
-    number: "2026",
-    title: "Learning AI , Node.js & ReactJS",
+    number: "AI",
+    title: "Learning AI, Node.js & React",
   },
 ];
 
@@ -38,13 +38,15 @@ export default function About() {
           About Me
         </motion.h2>
 
-        <p className="text-center text-gray-400 mt-8 max-w-3xl mx-auto leading-8">
-        I am a Laravel Backend Developer with 3.5+ years of professional
-        experience building scalable web applications, CRM systems,
-        e-commerce platforms and backend solutions using Laravel, PHP and
-        MySQL. I am currently expanding my expertise in AI Integration and
-        Node.js to build modern intelligent applications.
-      </p>
+        <p className="text-center text-gray-400 mt-8 max-w-4xl mx-auto text-lg leading-8">
+          I'm a <span className="font-semibold text-white">Laravel Backend Developer</span> with{" "}
+          <span className="font-semibold text-blue-400">3 years 7 months</span> of professional
+          experience building secure, scalable, and high-performance web applications.
+          I specialize in <span className="font-semibold text-white">Laravel, PHP, MySQL, RESTful APIs, and third-party integrations</span>,
+          with hands-on experience in CRM systems, educational platforms, and e-commerce
+          solutions. Passionate about clean architecture, performance optimization, and
+          continuously expanding my expertise in <span className="font-semibold text-white">AI Integration, Node.js, and ReactJS</span> to build next-generation web applications.
+        </p>
 
         <div className="grid md:grid-cols-4 gap-8 mt-20">
 
@@ -55,7 +57,7 @@ export default function About() {
                 scale: 1.05,
               }}
               key={item.title}
-              className="rounded-3xl p-8 bg-white/5 border border-white/10 text-center"
+              className="group rounded-3xl border border-slate-700 text-center bg-[#0B1220] p-8 transition-all duration-500 hover:border-blue-500 hover:shadow-[0_25px_60px_rgba(37,99,235,.20)]"
             >
 
               <h3 className="text-5xl font-bold text-blue-500">

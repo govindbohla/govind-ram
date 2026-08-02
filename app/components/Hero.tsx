@@ -31,15 +31,8 @@ export default function Hero() {
             Hi, I'm <span className="text-blue-500">Govind Ram</span>
           </h1>
 
-          <p className="mt-8 text-gray-300 leading-8 text-lg">
-            Results-driven <strong>Laravel Backend Developer</strong> with{" "}
-            <strong>3.5+ years</strong> of experience in developing scalable web
-            applications, CRM systems, Educational Platforms and E-Commerce solutions.
-            Proficient in <strong>PHP, Laravel, MySQL, JavaScript</strong> and
-            third-party integrations, with hands-on experience in queues, background
-            jobs, payment gateway integration and RESTful API development. Currently
-            learning <strong>AI Integration</strong> and <strong>Node.js</strong> to
-            build next-generation backend solutions.
+          <p className="mt-8 text-lg leading-8 text-gray-300">
+            <strong>Laravel Backend Developer</strong> with <strong>3 years 7 months</strong> of experience creating scalable web applications, SaaS platforms, and e-commerce solutions using <strong>PHP, Laravel, MySQL, JavaScript</strong>, and RESTful APIs.
           </p>
 
           {/* Buttons */}
@@ -90,20 +83,20 @@ export default function Hero() {
 
           {/* Stats */}
           <div className="mt-12 grid grid-cols-3 gap-4">
-            <div className="rounded-xl border border-white/10 bg-white/5 p-5 text-center">
+            <div className="group rounded-3xl border border-slate-700 text-center bg-[#0B1220] p-8 transition-all duration-500 hover:border-blue-500 hover:shadow-[0_25px_60px_rgba(37,99,235,.20)]">
               <h3 className="text-3xl font-bold text-blue-500">3.5+</h3>
               <p className="mt-2 text-sm text-gray-400">Years</p>
             </div>
 
-            <div className="rounded-xl border border-white/10 bg-white/5 p-5 text-center">
+            <div className="group rounded-3xl border border-slate-700 text-center bg-[#0B1220] p-8 transition-all duration-500 hover:border-blue-500 hover:shadow-[0_25px_60px_rgba(37,99,235,.20)]">
               <h3 className="text-3xl font-bold text-blue-500">10+</h3>
               <p className="mt-2 text-sm text-gray-400">Projects</p>
             </div>
 
-            {/* <div className="rounded-xl border border-white/10 bg-white/5 p-5 text-center">
-              <h3 className="text-3xl font-bold text-blue-500">80+</h3>
-              <p className="mt-2 text-sm text-gray-400">REST APIs</p>
-            </div> */}
+            <div className="group rounded-3xl border border-slate-700 text-center bg-[#0B1220] p-8 transition-all duration-500 hover:border-blue-500 hover:shadow-[0_25px_60px_rgba(37,99,235,.20)]">
+              <h3 className="text-3xl font-bold text-blue-500">12+</h3>
+              <p className="mt-2 text-sm text-gray-400">Technologies</p>
+            </div>
           </div>
         </motion.div>
 
